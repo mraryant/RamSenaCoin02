@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "../styles/Section5.css";
 import background from "../assets/roadmap.mp4";
 const Section5 = () => {
@@ -9,7 +9,7 @@ const Section5 = () => {
           <p
             className="tokehead"
             style={{
-              marginBottom: 60,
+              marginBottom: 40,
               textTransform: "uppercase",
               fontWeight: 700,
             }}

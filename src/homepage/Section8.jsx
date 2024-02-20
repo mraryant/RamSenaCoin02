@@ -22,8 +22,7 @@ const Section8 = () => {
                         <div className="s8circle"></div>
                         <div className="s8circle"></div>
 
-                    </div>
-                    <div className="s8circles">
+
                         <div className="s8circle"></div>
                         <div className="s8circle"></div>
                         <div className="s8circle"></div>

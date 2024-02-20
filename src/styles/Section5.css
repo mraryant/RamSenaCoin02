@@ -11,7 +11,7 @@
 }
 .s5video {
   width: 250vh;
-
+  opacity: 50%;
   object-fit: cover;
 
   object-fit: contain;
@@ -30,7 +30,7 @@
   overflow-x: hidden;
 }
 .tokepara {
-  color: white;
+  color: rgb(203, 203, 203);
   text-align: center;
   font-size: 18px;
   font-style: normal;
@@ -133,6 +133,17 @@
 
 @media screen and (max-width: 767px) {
   .main-timeline .timeline {
+    width: 100%;
+  }
+  .tokehead {
+    font-size: 35px;
+
+    line-height: normal;
+  }
+  .tokepara {
+    line-height: 4cqmax;
+  }
+  .container {
     width: 100%;
   }
 }

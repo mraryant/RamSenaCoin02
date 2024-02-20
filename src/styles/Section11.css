@@ -83,5 +83,13 @@
   }
   .s11subhead {
     width: 100%;
+    line-height: 25px;
+  }
+  .s11main {
+    padding: 20px;
+  }
+  .s11title {
+    font-size: 35px;
+    line-height: normal;
   }
 }
