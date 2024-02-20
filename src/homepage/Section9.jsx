@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import msme from '../assets/Msme-logo.png'
 
 const Section9 = () => {

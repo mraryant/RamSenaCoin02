@@ -6,11 +6,16 @@ import arrow1 from "../assets/arrow1.svg";
 import arrow2 from "../assets/arrow2.svg";
 import coin from "../assets/coin.png";
 import "../components/Topnav.css";
+import TopNavbar from "../components/Topnav";
 // import logo from "../assets/logo.svg";
 const Section1 = () => {
   return (
     <>
-      <div className="section1Main">
+      <div className="section1Main" >
+        <div id="navs1" style={{ width: "100%", height: "fit-content"  }}>
+          <TopNavbar />
+
+        </div>
         <video autoPlay loop muted playsInline className="video">
           <source src={background} type="video/mp4" />
         </video>
@@ -18,6 +23,7 @@ const Section1 = () => {
         <div className="sec1coin">
           <img src={coin} alt="" />
         </div>
+
         <div className="sec1leftarea">
           <div className="sec1toke">
             <p>Tokenomics</p>

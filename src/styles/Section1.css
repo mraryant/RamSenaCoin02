@@ -5,6 +5,11 @@
   position: relative;
   cursor: default;
 }
+#navs1 {
+  position: absolute;
+  z-index: 99;
+  background: transparent;
+}
 .video {
   width: 100%;
   object-fit: cover;
@@ -28,7 +33,7 @@
 }
 
 .sec1leftarea {
-  position: relative;
+  position: absolute;
   top: 20%;
   left: 2.5%;
   width: 216px;
@@ -180,8 +185,8 @@
   }
 
   .sec1right {
-      width: 62%;
-    }
+    width: 62%;
+  }
   .sec1title {
     font-size: 54px;
   }
@@ -205,7 +210,7 @@
     height: 100vh;
   }
   .sec1right {
-      width: 65%;
+    width: 65%;
   }
   .sec1para {
     font-size: 20px;
@@ -232,7 +237,7 @@
   }
 }
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
   .section1Main {
     height: 100vh;
   }
@@ -245,7 +250,7 @@
   }
   .sec1title {
     font-size: 43px;
-    line-height: 45px;  
+    line-height: 45px;
     margin-bottom: 20px;
   }
   .sec1desc {
@@ -308,4 +313,4 @@
     text-align: center;
     gap: 20px;
   }
-}   
+}
