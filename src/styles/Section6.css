@@ -3,6 +3,7 @@
   height: 100%;
   padding: 60px 20px;
   position: relative;
+  background-color: black;
   overflow-x: hidden;
 }
 
@@ -12,6 +13,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  background-color: black;
 }
 
 .s6left {

@@ -7,6 +7,7 @@
   padding: 40px;
   flex-direction: column;
   gap: 30px;
+  background-color: black;
 }
 .s10title {
   color: #fff;
@@ -125,13 +126,16 @@
 }
 @media (max-width: 660px) {
   .s10section {
-    background-image: none;
+   padding-bottom: 0px;
+   background: none;
   }
   .s10section2 {
-    background-image: none;
+    padding-bottom: 0px;
+    background: none;
   }
   .s10section3 {
-    background-image: none;
+    padding-bottom: 0px;
+    background: none;
   }
   .s10title {
     font-size: 40px;

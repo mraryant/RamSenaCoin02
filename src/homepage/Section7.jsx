@@ -1,6 +1,10 @@
 // import React from "react";
 import "../styles/Section7.css";
-
+import la1 from '../assets/lo1.png'
+import la2 from '../assets/lo2.png'
+import la3 from '../assets/lo3.png'
+import la4 from '../assets/lo4.png'
+import la5 from '../assets/lo5.png'
 import background from "../assets/s7video.mp4";
 const Section7 = () => {
     return (
@@ -55,11 +59,13 @@ const Section7 = () => {
                     </div>
                     <div className="s7token">
                         <div className="s7logo">
-                            <div className="log"></div>
-                            <div className="log"></div>
-                            <div className="log"></div>
-                            <div className="log"></div>
-                            <div className="log"></div>
+                            <div className="log">
+                                <img src={la1} alt="" />
+                            </div>
+                            <div className="log"><img src={la2} style={{width:"50px", height:"50px"}} alt="" /></div>
+                            <div className="log"><img src={la3} alt="" /></div>
+                            <div className="log"><img src={la4} alt="" /></div>
+                            <div className="log"><img src={la5} alt="" /></div>
                         </div>
                         <p className="address">
                             <span>Contract Address:</span>{" "}

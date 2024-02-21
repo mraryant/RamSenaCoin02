@@ -27,7 +27,7 @@
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .tokepara {
   color: rgb(203, 203, 203);

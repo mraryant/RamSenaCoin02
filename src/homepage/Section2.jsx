@@ -1,6 +1,9 @@
 // import React from 'react'
 import sec2img from "../assets/sec2img.svg";
 import "../styles/Section3.css";
+import icon1 from '../assets/s2icon1.svg'
+import icon2 from '../assets/s2icon2.svg'
+import icon3 from '../assets/s2icon3.svg'
 const Section2 = () => {
   return (
     <>
@@ -23,14 +26,14 @@ const Section2 = () => {
 
             <div className="sec2cards">
               <div className="c1">
-                <img src="" className="c1img" alt="" />
+                <img src={icon1} className="c1img" alt="" />
                 <p className="c1head">Social Work</p>
                 <p className="c1para">
                   Accessible mental health support to all background and areas.
                 </p>
               </div>
               <div className="c1">
-                <img src="" className="c1img" alt="" />
+                <img src={icon2} className="c1img" alt="" />
                 <p className="c1head">Save Cow Campaign</p>
                 <p className="c1para">
                   Your privacy is sacred; we maintain the highest level of
@@ -38,7 +41,7 @@ const Section2 = () => {
                 </p>
               </div>
               <div className="c1">
-                <img src="" className="c1img" alt="" />
+                <img src={icon3} className="c1img" alt="" />
                 <p className="c1head">Ayodhya Yatra</p>
                 <p className="c1para">
                   We foster a supportive community where you can connect and

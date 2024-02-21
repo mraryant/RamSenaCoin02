@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
   flex-direction: column;
   cursor: default;
   padding: 40px 20px;
@@ -59,7 +60,7 @@
   font-family: "Manrope";
   font-size: 56px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 64px;
   /* 114.286% */
 }
@@ -100,7 +101,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
+  gap: 12px;
   align-self: stretch;
 }
 
@@ -120,12 +121,12 @@
 
 .sec3c1para {
   color: #fff;
-  font-family: Manrope;
+  font-family: "DM Sans", sans-serif;
   font-size: 15px;
   font-style: normal;
 
   line-height: 140%; /* 22.4px */
-  letter-spacing: -0.64px;
+
   opacity: 0.8;
   /* 150% */
 }
@@ -190,6 +191,7 @@
 
   .sec3head {
     font-size: 40px;
+    margin-bottom: 0px;
   }
 
   .sec3cards {
@@ -197,6 +199,13 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+  }
+  .sec3c1{
+gap: 10px;
+padding: 24px 24px 0px 24px;
+  }
+  .sec3c1para{
+    margin-bottom: 0px;
   }
 }
 

@@ -3,6 +3,9 @@ import sec3img from '../assets/sec3img.svg'
 import '../styles/Section2.css'
 import '../styles/Section3.css'
 import sec3icon1 from '../assets/sec3icon1.svg'
+import sec3icon2 from '../assets/s3icon2.svg'
+import sec3icon3 from '../assets/s3icon3.svg'
+import sec3icon4 from '../assets/s3icon4.svg'
 const Section3 = () => {
   return (
     <>
@@ -34,7 +37,7 @@ const Section3 = () => {
               </div>
               <div className="sec3c1">
                 <div className="sec3imgbar">
-                  <img src={sec3icon1} className='sec3c1img' alt="" />
+                  <img src={sec3icon2} className='sec3c1img' alt="" />
                 </div>
                 <p className='sec3c1head'>Supporting Social
                   Harmony</p>
@@ -50,7 +53,7 @@ const Section3 = () => {
             <div className="sec3cards">
               <div className="sec3c1">
                 <div className="sec3imgbar">
-                  <img src={sec3icon1} className='sec3c1img' alt="" />
+                  <img src={sec3icon3} className='sec3c1img' alt="" />
                 </div>
                 <p className='sec3c1head'>Secure <br />
                   Transactions</p>
@@ -62,10 +65,9 @@ const Section3 = () => {
               </div>
               <div className="sec3c1">
                 <div className="sec3imgbar">
-                  <img src={sec3icon1} className='sec3c1img' alt="" />
+                  <img src={sec3icon4} className='sec3c1img' alt="" />
                 </div>
-                <p className='sec3c1head'>Symbolic
-                  Representation</p>
+                <p className='sec3c1head'>Social Impact</p>
                 <p className='sec3c1para'>Using Ramsena Coin Can
                   Indirectly Contribute To The Initiatives Supported
                   By The Organization. The Commitment To Uplifting

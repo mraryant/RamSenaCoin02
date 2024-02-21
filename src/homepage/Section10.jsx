@@ -18,6 +18,7 @@ const Section10 = () => {
                 </p>
 
                 <div className="s10section">
+                <div className="s10overlay"></div>
                     <div className="s10left">
                         <p className="shead">Collaboration with Experts:</p>
                         <p className="spara">

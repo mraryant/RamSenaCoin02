@@ -10,7 +10,7 @@ import user7 from "../assets/user7.jpeg";
 const Section12 = () => {
   return (
     <>
-      <div className="s12main container">
+      <div className="s12main">
         <p className="s12head">OUR TEAM</p>
         <div className="s12content">
           <div className="s12card">

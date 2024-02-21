@@ -3,7 +3,11 @@
   flex-direction: row;
   justify-content: baseline;
   align-items: center;
-  padding: 40px;
+  padding: 80px 40px;
+  background-image: url('../assets/sec8img.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .s8left {
   display: flex;

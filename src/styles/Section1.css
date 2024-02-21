@@ -1,7 +1,8 @@
 .section1Main {
   width: 100%;
-  min-height: 105vh;
+  min-height: 100vh;
   color: white;
+
   position: relative;
   cursor: default;
 }
@@ -16,7 +17,7 @@
   height: 100%;
   display: flex;
   position: absolute;
-  opacity: 0.8;
+
   right: 0%;
 }
 .sec1overlay {
@@ -239,7 +240,7 @@
 
 @media (max-width: 768px) {
   .section1Main {
-    height: 100vh;
+    height: 110vh;
   }
   .sec1leftarea {
     display: none;

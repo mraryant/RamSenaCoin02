@@ -5,17 +5,21 @@
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
+  background-color: black;
   line-height: 55px; /* 110% */
+  margin-bottom: 0px;
   text-transform: uppercase;
-  overflow-x: hidden;
+  
 }
 .sec7main {
-  padding: 20px;
+  padding: 50px 20px;
   width: 100%;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+ 
   align-items: center;
 }
 
@@ -112,7 +116,13 @@
 .log {
   width: 60px;
   height: 60px;
-  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.log img{
+  width: 60px;
+  height: 60px;
 }
 
 .address span {
